@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Silkscreen:wght@400;700&display=swap');
+
+body {
+  font-family: "Gugi", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #440316;
+  background-color: #ECE7FE;
+  font-size: 16px;
+  background-image: url('images/clouds.gif');
+  background-position: center;
+  background-repeat: repeat;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Silkscreen", sans-serif;
+  color: #F52761;
+}
+
+p {
+  margin-bottom: 2em;
+  font-size: 1.2em;
+}
+
+a {
+  color: #F52761
+}
+
+a:hover {
+  color: #5727F5
+}
+
+.btn {
+  background-color: #DDF527;
+  padding: 1rem;
+  border-radius: .5em;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: .25rem;
+}
+
+ul li {
+  margin-left: 0;
+  display: inline-block;
+  font-size: 4em;
+  margin-right: .5rem;
+}
+
+.card {
+  background-color: #CABBFC;
+  padding: 1em 2em 2em 2em;
+  margin-bottom: 3em;
+  box-shadow: 25px 25px;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+#profile {
+  border-radius: 100%;
+}
+
+
+@media (min-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    padding: 10% 20%;
+    max-width: 800px;
+    margin: auto;
+  }
+}
+
+@media (min-width: 541px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    padding: 2% 8%;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    padding: 2% 8% 2% 2%;
+  }
+}
